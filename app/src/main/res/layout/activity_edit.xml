@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tk.dinud11.worddb.EditActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <EditText
+                android:id="@+id/edit_word"
+                android:ems="10"
+                android:inputType="text"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:id="@+id/edit_def"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/edit_save"
+                android:layout_marginStart="20dp"
+                android:text="Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+
+        <TableRow>
+            <Spinner
+                android:id="@+id/edit_type"
+                android:entries="@array/types"
+                android:prompt="@string/type_prompt"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/edit_categ"
+                android:layout_weight="2"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/category_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow android:weightSum="7">
+            <Button
+                android:id="@+id/amic_add"
+                android:text="ä"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/smic_add"
+                android:text="ß"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/omic_add"
+                android:text="ö"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/umic_add"
+                android:text="ü"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/amare_add"
+                android:text="Ä"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/omare_add"
+                android:text="Ö"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/umare_add"
+                android:text="Ü"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

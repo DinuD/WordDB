@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WordDB</string>
+    <string name="welcome">Welcome!</string>
+    <string name="modify">Modify</string>
+    <string name="custom_select">Custom selection</string>
+    <string name="word">Word:</string>
+    <string name="definition">Definition:</string>
+    <string name="category">Category</string>
+    <string name="type">Type</string>
+    <string name="delete">Delete</string>
+    <string name="bytype">By Type</string>
+    <string name="bycateg">By Category</string>
+    <string name="add">Add</string>
+    <string name="addw">Add word!</string>
+    <string name="editw">Edit word!</string>
+    <string name="category_prompt">Select a category!</string>
+    <string name="type_prompt">Select the word type!</string>
+    <string-array name="types">
+        <item>subst</item>
+        <item>verb</item>
+        <item>adj</item>
+        <item>adv</item>
+    </string-array>
+    <string name="refresh">Refresh</string>
+    <string name="edit">Edit</string>
+</resources>
